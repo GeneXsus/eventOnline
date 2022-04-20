@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/SelectLanguage"
+        android:key="ListaDeLenguajes"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:defaultValue="en"
+        android:dialogTitle="Indicar Pais"
+        android:entries="@array/pais"
+        android:entryValues="@array/codigopais" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switchVolverActividad"
+        android:title="@string/volver_actividad" />
+
+</PreferenceScreen>
